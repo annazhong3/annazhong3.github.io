@@ -22,8 +22,7 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
-    <link href="./style.css"
-        rel="stylesheet" type="text/css" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
     <style>
         @media (min-width:992px) {
             html.w-mod-js:not(.w-mod-ix) [data-w-id="e550241e-9108-0a6f-a053-02038570edf9"] {
@@ -246,8 +245,22 @@
                     display: none !important;
                 }
 
-                @media screen and (max-width: 991px),
-                @media screen and (max-width: 767px),
+                @media screen and (max-width: 991px) {
+
+                    .hide,
+                    .hide-tablet {
+                        display: none !important;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+
+                    .hide,
+                    .hide-tablet {
+                        display: none !important;
+                    }
+                }
+
                 @media screen and (max-width: 479px) {
 
                     .hide,
@@ -256,14 +269,16 @@
                     }
                 }
 
-                @media screen and (max-width: 767px) .hide-mobile-landscape {
-                    display: none !important;
-                }
+                @media screen and (max-width: 767px) {
+                    .hide-mobile-landscape {
+                        display: none !important;
+                    }
                 }
 
-                @media screen and (max-width: 479px) .hide-mobile {
-                    display: none !important;
-                }
+                @media screen and (max-width: 479px) {
+                    .hide-mobile {
+                        display: none !important;
+                    }
                 }
 
                 .margin-0 {
@@ -648,6 +663,9 @@
             $(".nav-button-hamburger").click();
         });
 
+    </script>
+    <script>
+        $(document).ready(function () { $(".w-webflow-badge").removeClass("w-webflow-badge").empty(); });
     </script>
 </body>
 
