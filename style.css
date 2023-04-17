@@ -4587,10 +4587,10 @@ figcaption {
     font-size: .875rem;
   }
 
-  .button {
+  .button:not(.do-not-hide) {
     display: none;
   }
-
+  
   .padding-section-medium {
     padding-top: 3rem;
     padding-bottom: 3rem;
