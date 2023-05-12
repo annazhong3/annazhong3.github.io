@@ -4639,7 +4639,7 @@ figcaption {
 }
 @media screen and (max-width: 580px) {
   #title-text{
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 @media screen and (max-width: 479px) {
@@ -4648,7 +4648,7 @@ figcaption {
     margin-bottom: 0;
   }
   #title-text {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   .padding-top {
     padding-bottom: 0;
