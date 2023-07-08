@@ -3867,7 +3867,7 @@ figcaption {
   position: absolute;
 }
 
-.navbar {
+.nbar {
   z-index: 999;
   background-color: #fffbf0;
   position: fixed;

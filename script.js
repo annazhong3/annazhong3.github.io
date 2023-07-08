@@ -13,7 +13,11 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-/* Web Font Loader v1.6.26 - (c) Adobe Systems, Google. License: Apache 2.0 */ ;(function () {
+/* Web Font Loader v1.6.26 - (c) Adobe Systems, Google. License: Apache 2.0 */ 
+
+
+
+;(function () {
   function aa (a, b, c) {
     return a.call.apply(a.bind, arguments)
   }
