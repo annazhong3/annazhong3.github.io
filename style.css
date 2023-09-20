@@ -3517,6 +3517,12 @@ figcaption {
   align-items: start;
   display: grid;
 }
+.four-grid {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  align-items: start;
+  display: grid;
+}
 
 .section-aboutme.background-color-black {
   position: relative;
